@@ -1,0 +1,24 @@
+.bigContainer {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.whiteCircle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.whiteBar {
+  width: 200px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  margin: 400px auto;
+}
