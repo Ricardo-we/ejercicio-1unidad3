@@ -1,0 +1,87 @@
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.changeSection {
+  border: 1px solid black;
+  width: 20rem;
+  height: 40rem;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.changeInnerContainer {
+  border: 1px solid black;
+  width: 270px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: auto;
+  border-radius: 25px;
+}
+
+#changeWidth {
+  display: flex;
+  flex-direction: column;
+}
+
+.caja1 {
+  margin-top: 15px;
+  align-self: flex-start;
+  width: 150px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: var(--color1);
+}
+
+.caja2 {
+  margin-top: 15px;
+  margin-right: 20px;
+  align-self: flex-end;
+  width: 150px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: var(--color1);
+}
+
+.caja3 {
+  align-self: center;
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: var(--color1);
+}
+
+.caja4 {
+  margin-top: 15px;
+  align-self: flex-end;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: var(--color1);
+}
+
+:root {
+  --color1: #f86032;
+}
+
+.linkNext {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#Changer {
+  align-self: center;
+}
